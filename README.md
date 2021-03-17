@@ -43,7 +43,7 @@ Add the Collision `printerClass` to your `phpunit.xml` in the `phpunit` section:
 
 ## No adapter
 
-You need to register the handler in your code:
+If you do not auto-discover packages, you will need to register the provider in your code:
 
 ```php
 (new \NunoMaduro\Collision\Provider)->register();
